@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@700;800&display=swap');
+
+*
+{
+    margin:0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(back.jpg);
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 110px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width:0;
+    background:#009688;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+width:100%;
+}
+.content
+{
+    width: 50%;
+}
+#text1{
+    display: flex;
+    margin-left: 348px;
+    margin-top: 169px;
+    font-size: 80px;
+    color: aliceblue;
+    font-family:'Kanit',sans-serif;
+    font-family:'Poppins',sans-serif;
+    font-weight: 600;
+}
+#text2
+{margin-left: 320px;
+    font-family:'Kanit',sans-serif;
+    font-family:'Poppins',sans-serif;
+    color: rgba(56, 206, 206, 0.905);
+    font-weight: 300;
+}
+#text3{
+    margin-left: 620px;
+    color: rgba(56, 206, 206, 0.905);
+    font-family:'Poppins',sans-serif;
+}
+.bn1{
+    box-shadow: 0 0 5px cyan;
+    margin-top: 32px;
+    margin-left:551px;
+    width: 165px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    border-color: #009688;
+    font-family:'Poppins',sans-serif;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    overflow: hidden;
+}
+.bn1:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan ,0 0 1px cyan,
+    0 0 10px cyan,0 0 10px cyan;
+}
+.bn2{
+    box-shadow: 0 0 5px cyan;
+    margin-top: 32px;
+    margin-left:84px;
+    width: 165px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    border-color: #009688;
+    font-family:'Poppins',sans-serif;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+.bn2:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan ,0 0 1px cyan,
+    0 0 10px cyan,0 0 10px cyan;
+}
